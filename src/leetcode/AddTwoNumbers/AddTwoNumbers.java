@@ -1,4 +1,4 @@
-package leetcode.AddTwoNumbers;
+package AddTwoNumbers;
 
 public class AddTwoNumbers {
 
@@ -24,7 +24,7 @@ public class AddTwoNumbers {
 		System.out.println(15/10);
 	}
 
-	
+
     public static ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
     	ListNode out = new ListNode(0);
         ListNode outt = new ListNode(0);
@@ -52,11 +52,11 @@ public class AddTwoNumbers {
             l1=l1.next;
             l2=l2.next;
         }while(l1!=null);
-        
+
         return out;
     }
-    
-    
+
+
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode out = new ListNode(0);
         ListNode outt = new ListNode(0);

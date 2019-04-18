@@ -1,7 +1,7 @@
-package leetcode;
+
 
 class Solution {
-	
+
 	static int MAX_INT = Integer.MAX_VALUE;
 	static int MIN_INT = Integer.MIN_VALUE;
     public static int myAtoi(String str) {
@@ -12,7 +12,7 @@ class Solution {
         int str_l = str.length();
         if( str_l != 0) {
         	for (int i = 0 ;i<str_l;i++){
-        		int charTmp = str.charAt(i); //may need to convert to int 
+        		int charTmp = str.charAt(i); //may need to convert to int
         		if (start_index == null) {
         			if (charTmp == 43 || charTmp == 45 || (charTmp >= 48 && charTmp <= 57)){
         				start_index = i;
@@ -40,7 +40,7 @@ class Solution {
 //        result_val = Integer.parseInt(int_str_type);
         return result_val;
     }
-   
+
     public static int return_int_able_val (String str_int){
     	char charTmp = str_int.charAt(0);
     	int l = str_int.length();
@@ -87,8 +87,8 @@ class Solution {
     		return Integer.parseInt(str_int);
     	}
     }
-    
-    
+
+
     public static void main(String[] args){
 //    	System.out.println(Long.MAX_VALUE);
 //    	System.out.println(MAX_INT);

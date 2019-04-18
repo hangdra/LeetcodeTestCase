@@ -1,4 +1,3 @@
-package leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,7 +8,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
 		String ts = "abbac";
 		System.out.println(lengthOfLongestSubstring(ts));
 	}
-	
+
     public static int lengthOfLongestSubstring(String s) {
 		int max_l = 0;
         int max_l_each = 0;
