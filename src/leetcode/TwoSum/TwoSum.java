@@ -1,4 +1,4 @@
-package leetcode.TwoSum;
+package TwoSum;
 
 public class TwoSum {
 
@@ -9,7 +9,7 @@ public class TwoSum {
 		for(int i :a) {
 			System.out.println(i);
 		}
-		
+
 		System.out.println(a[1]+a[2]==3);
 		int si=1;
 		int sii = 2;
@@ -18,8 +18,8 @@ public class TwoSum {
 		boolean ards = true;
 	}
 
-	
-	
+
+
 //    public int[] twoSum(int[] nums, int target) {
 //        int l = nums.length;
 //        for(int si=0;si<l-1;si++){
