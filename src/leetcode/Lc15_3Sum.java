@@ -3,7 +3,7 @@ package leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Lc15 {
+public class Lc15_3Sum {
 	/*
 	 * Given an array nums of n integers, are there elements a, b, c in nums
 	 * such that a + b + c = 0? Find all unique triplets in the array which
